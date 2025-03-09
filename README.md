@@ -2,7 +2,8 @@ News Scraper Bot
 
 A Python-based web scraper that collects local and national news from Onet.pl and sends them to a Telegram channel. This bot uses Selenium and BeautifulSoup for web scraping and Telegram API for sending notifications. It ensures no duplicate entries by maintaining a list of already processed items.
 
-Features
+
+Features:
 
 Scrapes local and national news from Onet.pl
 
@@ -12,21 +13,23 @@ Avoids duplicate entries by checking against a saved list
 
 Runs periodically with adjustable intervals
 
-Requirements
 
-Python 3.x
+Requirements:
 
-Selenium
+-Python 3.x
 
-BeautifulSoup
+-Selenium
 
-Requests
+-BeautifulSoup
 
-WebDriver (ChromeDriver)
+-Requests
 
-Telegram API token
+-WebDriver (ChromeDriver)
 
-Usage
+-Telegram API token
+
+
+Usage:
 
 Once the setup is complete, run the script, and the bot will start scraping news and sending notifications to your Telegram channel.
 
